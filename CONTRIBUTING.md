@@ -1,3 +1,19 @@
+# Issues
+
+If you wish to submit an issue, please use our issues page, found on Github.
+
+Bugs should follow the following format:
+
+```
+Brief Description:
+
+Reproduction Steps:
+
+What you were expecting:
+
+What really happened:
+```
+
 # Contributing to VATBrief
 
 To contribute, fork the repository and clone **your** fork. The **.csproj** file is there for your convinience, so all you really have to do is launch it.
