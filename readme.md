@@ -9,3 +9,7 @@ You can download the binary [here](https://github.com/IDevJoe/VATBrief/releases)
 ## Bug Reporting
 
 Submit bug reports to our [bug tracker](https://github.com/IDevJoe/VATBrief/issues) on GitHub.
+
+## Contributing
+
+Please see our CONTRIBUTING (link soon(TM)) file
