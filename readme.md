@@ -12,4 +12,4 @@ Submit bug reports to our [bug tracker](https://github.com/IDevJoe/VATBrief/issu
 
 ## Contributing
 
-Please see our CONTRIBUTING (link soon(TM)) file
+Please see our [CONTRIBUTING](https://github.com/IDevJoe/VATBrief/blob/master/CONTRIBUTING.md) file
