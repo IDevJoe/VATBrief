@@ -11,6 +11,7 @@ namespace VATBrief
     public class VATRequestManager
     {
         private static String status = "";
+        public static string metar = "";
 
         public static void updateStatus()
         {
@@ -33,9 +34,13 @@ namespace VATBrief
                 } else if (server.StartsWith("url0"))
                 {
                     VATDataAPI.urls.Add(server.Substring(5));
+                } else if (server.StartsWith("metar0"))
+                {
+                    metar = server.Substring(7);
                 }
             }
             Console.WriteLine("Loaded "+VATDataAPI.urls.Count+" data servers (Primary: "+VATDataAPI.urls[0]+")");
+            Console.WriteLine("Metar Server: "+metar);
         }
 
         public static string queryURL(string url)
