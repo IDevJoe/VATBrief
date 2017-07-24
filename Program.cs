@@ -46,7 +46,7 @@ namespace VATBrief
             var clients = new List<VATDataAPI.VATClient>();
             clients.AddRange(VATDataAPI.GetClients());
             var atis = clients.Find((e) => e.Callsign == ap + "_ATIS");
-            Console.WriteLine(ap+" ATIS: "+(atis != null ? parseATIS(atis.ATIS) : "No ATIS Online"));
+            Console.WriteLine(ap+ (atis != null ? " ATIS: " +parseATIS(atis.ATIS) : " METAR: "+ VATRequestManager.queryURL(VATRequestManager.metar+"?id=" + Uri.EscapeDataString(ap))));
             Console.WriteLine(Seperator);
             Console.WriteLine("Controller List");
             Console.WriteLine("Callsign\tName\t\t\t\tFrequency");
